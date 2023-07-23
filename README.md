@@ -19,7 +19,7 @@ https://sports-1bfw.onrender.com/
 
 ## Description
 
-This is a web app created using React, designed to provide a seamless user experience for managing transactions with Flatiron Bank. The app allows users to view a table of their recent bank transactions, add new transactions through a form, and delete existing ones. The search bar facilitates filtering transactions based on descriptions, while two buttons enable sorting by category or description. The user-friendly interface and responsive design ensure a smooth experience on various devices. Leveraging React's state and props, the app efficiently fetches data from a local JSON server. It showcases practical implementation of components, props, state, events, and data fetching, making it an excellent platform for learning and practicing these concepts in React development.
+This is a web app created using React, designed to provide a seamless user experience for managing transactions with Flatiron Bank. The app allows users to view a table of their recent bank transactions, add new transactions through a form, and delete existing ones. The search bar facilitates filtering transactions based on descriptions, while two buttons enable sorting by category or description. The user-friendly interface and responsive design ensure a smooth experience on various devices. Leveraging React's state and props, the app efficiently fetches data from a local JSON server. 
 
 ## Project Setup
 
@@ -53,7 +53,7 @@ The content of this repository is licensed under the MIT License.
 
 ## Conclusion
 
-React played a vital role in developing the Flatiron Bank web app. Its component-based architecture enabled organized and reusable code, boosting development efficiency. Efficient state management and props facilitated seamless data handling and UI updates. The virtual DOM optimized performance for a responsive user experience. This project highlights React's prowess in building professional, interactive web applications, making it a critical asset for modern web development endeavors.
+React played a vital role in developing the Flatiron Bank web app. Its component-based architecture enabled organized and reusable code, boosting development efficiency. Efficient state management and props facilitated seamless data handling and UI upda
 
 ## Author's Info:
 1. Slack/Mattermost - Yegon.
