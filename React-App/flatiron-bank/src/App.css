@@ -1,0 +1,141 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a global font-family */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the header */
+header {
+    background-color: #0a3d91;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Styling for the main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-bottom: 0;
+}
+
+/* Styling for the search bar */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Styling for the form */
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Adjusted padding to make the buttons smaller and in rows */
+button {
+    padding: 0.3rem 0.8rem;
+    margin: 0.5rem;
+    font-size: 0.9rem;
+    background-color: #0a3d91;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003087;
+}
+
+/* Styling for the transactions table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+thead {
+    background-color: #0a3d91;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Styling for delete buttons */
+button.delete {
+    background-color: #d11a2a;
+}
+
+button.delete:hover {
+    background-color: #b31524;
+}
+
+/* Additional styles */
+.App {
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #0a3d91;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    button {
+        font-size: 0.8rem;
+        padding: 0.2rem 0.5rem;
+    }
+}
